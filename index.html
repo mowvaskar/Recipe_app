@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Recipe App</h1>
+            <input type="text" id="searchInput" placeholder="Search for recipes..." oninput="searchRecipes()">
+        </header>
+        
+        <div id="recipeList" class="recipe-list"></div>
+        
+        <div id="cart" class="cart">
+            <h2>Cart</h2>
+            <ul id="cartItems"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
